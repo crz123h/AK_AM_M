@@ -1,0 +1,8 @@
+<section id="reviews">
+    <h2>مراجعات العملاء</h2>
+    <div id="review-list">
+        <p>لا توجد مراجعات بعد...</p>
+    </div>
+    <textarea id="review-input" placeholder="اكتب مراجعتك هنا..."></textarea>
+    <button onclick="submitReview()">إرسال المراجعة</button>
+</section>

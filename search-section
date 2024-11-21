@@ -1,0 +1,8 @@
+<section id="search">
+    <h2>ابحث عن سلاحك المفضل</h2>
+    <input type="text" id="search-box" onkeyup="searchWeapons()" placeholder="ابحث عن سلاح...">
+    <div>
+        <label for="price-range">نطاق السعر:</label>
+        <input type="range" id="price-range" min="0" max="10000" oninput="filterByPrice()">
+    </div>
+</section>

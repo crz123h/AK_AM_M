@@ -1,0 +1,3 @@
+<div id="paypal-button-container">
+    <button id="paypal-button">الدفع عبر PayPal</button>
+</div>
