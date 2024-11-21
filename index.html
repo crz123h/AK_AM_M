@@ -3,215 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>منصة محمد المخلافي لبيع جميع أنواع الأسلحة</title>
-    <style>
-        /* تصميم أساسي بخلفيات وألوان عسكرية */
-        body {
-            font-family: Tahoma, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: url('https://via.placeholder.com/1920x1080/2c3e50/FFFFFF?text=%D8%AE%D9%84%D9%81%D9%8A%D8%A9+%D8%B9%D8%B3%D9%83%D8%B1%D9%8A%D8%A9') no-repeat center center fixed;
-            background-size: cover;
-            color: #ffffff;
-            animation: fadeIn 3s ease-in-out;
-        }
-
-        header {
-            background-color: rgba(0, 0, 0, 0.8);
-            padding: 20px;
-            text-align: center;
-        }
-
-        header h1 {
-            font-size: 48px;
-            color: #f39c12;
-        }
-
-        header p {
-            font-size: 20px;
-            color: #ecf0f1;
-        }
-
-        header nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 10px 0;
-            display: flex;
-            justify-content: center;
-        }
-
-        header nav ul li {
-            margin: 0 15px;
-        }
-
-        header nav ul li a {
-            color: #f39c12;
-            text-decoration: none;
-            font-size: 18px;
-        }
-
-        header nav ul li a:hover {
-            text-decoration: underline;
-        }
-
-        section {
-            margin: 20px;
-            padding: 20px;
-            border-radius: 10px;
-            background: rgba(0, 0, 0, 0.7);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
-        }
-
-        section h2 {
-            text-align: center;
-            font-size: 36px;
-            color: #f1c40f;
-            margin-bottom: 20px;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-        }
-
-        .weapon-card {
-            background: rgba(44, 62, 80, 0.9);
-            border-radius: 10px;
-            overflow: hidden;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-
-        .weapon-card:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);
-        }
-
-        .weapon-card img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-        }
-
-        .weapon-card h3 {
-            padding: 10px;
-            text-align: center;
-            font-size: 24px;
-            color: #ecf0f1;
-        }
-
-        .weapon-card p {
-            padding: 0 10px 10px;
-            color: #bdc3c7;
-            font-size: 16px;
-        }
-
-        .weapon-card a {
-            display: block;
-            text-align: center;
-            margin: 10px auto;
-            padding: 10px 20px;
-            background-color: #f39c12;
-            color: #000;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-            transition: background-color 0.3s, color 0.3s;
-        }
-
-        .weapon-card a:hover {
-            background-color: #d35400;
-            color: #fff;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: rgba(0, 0, 0, 0.9);
-            color: #bdc3c7;
-            font-size: 16px;
-        }
-
-        footer a {
-            color: #f39c12;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-
-        /* الرسوم المتحركة */
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-    </style>
+    <title>متجر محمد المخلافي للأسلحة</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>منصة محمد المخلافي لبيع الأسلحة</h1>
-        <p>جميع أنواع الأسلحة والمعدات العسكرية في مكان واحد</p>
+        <h1>متجر محمد المخلافي</h1>
+        <p>للأسلحة والمعدات العسكرية</p>
         <nav>
             <ul>
                 <li><a href="#weapons">الأسلحة</a></li>
                 <li><a href="#equipment">المعدات</a></li>
+                <li><a href="#reviews">المراجعات</a></li>
                 <li><a href="#contact">تواصل معنا</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- قسم الأسلحة -->
     <section id="weapons">
         <h2>أنواع الأسلحة</h2>
         <div class="grid">
             <div class="weapon-card">
-                <img src="https://via.placeholder.com/400x200/34495e/FFFFFF?text=%D8%A8%D9%86%D8%AF%D9%82%D9%8A%D8%A9+1" alt="سلاح 1">
-                <h3>بندقية M16</h3>
-                <p>بندقية قتالية متعددة الاستخدامات ذات أداء عالٍ.</p>
-                <a href="#">شراء الآن</a>
+                <h3>بندقية هجومية</h3>
+                <p>معلومات تفصيلية حول البندقية الهجومية.</p>
+                <button>شراء الآن</button>
             </div>
             <div class="weapon-card">
-                <img src="https://via.placeholder.com/400x200/34495e/FFFFFF?text=%D9%85%D8%B3%D8%AF%D8%B3+2" alt="سلاح 2">
-                <h3>مسدس Glock</h3>
-                <p>مسدس خفيف الوزن ودقيق في التصويب.</p>
-                <a href="#">شراء الآن</a>
+                <h3>مسدس</h3>
+                <p>معلومات تفصيلية حول المسدس.</p>
+                <button>شراء الآن</button>
             </div>
             <div class="weapon-card">
-                <img src="https://via.placeholder.com/400x200/34495e/FFFFFF?text=%D9%82%D9%86%D8%A8%D9%84%D8%A9+3" alt="سلاح 3">
-                <h3>قنبلة يدوية</h3>
-                <p>قنبلة فعالة للاستخدام التكتيكي في العمليات القتالية.</p>
-                <a href="#">شراء الآن</a>
+                <h3>قناصة</h3>
+                <p>معلومات تفصيلية حول القناصة.</p>
+                <button>شراء الآن</button>
             </div>
         </div>
     </section>
 
-    <!-- المعدات العسكرية -->
     <section id="equipment">
         <h2>المعدات العسكرية</h2>
         <div class="grid">
-            <div class="weapon-card">
-                <img src="https://via.placeholder.com/400x200/34495e/FFFFFF?text=%D8%AF%D8%B1%D9%88%D8%B9+1" alt="معدات 1">
-                <h3>درع واقي</h3>
-                <p>درع متين لحماية الجسم من الرصاص.</p>
-                <a href="#">شراء الآن</a>
+            <div class="equipment-card">
+                <h3>خوذة واقية</h3>
+                <p>معلومات حول الخوذة الواقية.</p>
+                <button>شراء الآن</button>
             </div>
-            <div class="weapon-card">
-                <img src="https://via.placeholder.com/400x200/34495e/FFFFFF?text=%D8%AE%D9%88%D8%B0%D8%A9+2" alt="معدات 2">
-                <h3>خوذة عسكرية</h3>
-                <p>خوذة خفيفة وقوية لحماية الرأس.</p>
-                <a href="#">شراء الآن</a>
+            <div class="equipment-card">
+                <h3>درع مضاد للرصاص</h3>
+                <p>معلومات حول الدرع الواقي.</p>
+                <button>شراء الآن</button>
             </div>
         </div>
     </section>
 
-    <!-- التواصل -->
-    <footer id="contact">
-        <p>تطوير: CRZ101 - للتواصل: <a href="tel:+966507382386">+966 50 738 2386</a></p>
+    <section id="reviews">
+        <h2>مراجعات العملاء</h2>
+        <textarea id="review-input" placeholder="اكتب مراجعتك هنا..."></textarea>
+        <button onclick="submitReview()">إرسال المراجعة</button>
+        <div id="review-list">
+            <p>لا توجد مراجعات بعد...</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>تم التطوير بواسطة CRZ101 | للتواصل: +966 50 738 2386</p>
     </footer>
+
+    <script>
+        function submitReview() {
+            const reviewInput = document.getElementById("review-input").value;
+            const reviewList = document.getElementById("review-list");
+            if (reviewInput) {
+                const newReview = document.createElement("p");
+                newReview.textContent = reviewInput;
+                reviewList.appendChild(newReview);
+                document.getElementById("review-input").value = "";
+            }
+        }
+    </script>
 </body>
-</html>
+    </html>
